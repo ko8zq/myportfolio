@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    background-image: linear-gradient(90deg, #393b3d80 0.5px, transparent 0.5px), linear-gradient(#393b3d80 0.5px, transparent 0.5px);
+    background-position: 10px 10px;
+    background-size: 21px 21px;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    text-align: center;
+}
+
+
+#wrap {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px;
+    
+}
+
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin:  10px;
+    a:visited {
+  color: rgb(0, 0, 0); /* : 訪問済みのリンクを紫色にする */
+  
+}
+
+}
+.works2{
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 300px;
+  border-radius: 8px;
+  /* box-shadow: 2px 2px 5px rgba(0,0,0,0.1); */
+}
+/* 背景設定 */
+
+
+
+
+
+.works2 img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
+}
+
+.works2 h4{
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.works2 p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.works2 a {
+  text-decoration: none;
+  color: inherit; /* 親要素の文字色を継承 */
+  display: block; /* リンク全体をクリック可能に */
+}
+
+ 
+
+
+.works-1{
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 300px;
+  border-radius: 8px;
+  /* box-shadow: 2px 2px 5px rgba(0,0,0,0.1); */
+}
+/* 背景設定 */
+
+.works-1 img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
+}
+
+.works-1 h4{
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.works-1 {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.works-1 {
+  text-decoration: none;
+  color: inherit; /* 親要素の文字色を継承 */
+  display: block; /* リンク全体をクリック可能に */
+}
+
+
